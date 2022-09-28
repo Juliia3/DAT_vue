@@ -24,7 +24,7 @@ import './swiper.scss'
         class="mySwiper">
           <swiper-slide v-for="(index, pic) in cart">
             <div class="swiper__cart cart">
-              <!-- <img :src="'http://localhost:1337' + img[pic].url" alt=""> -->
+              <img :src="'http://localhost:1337' + img[pic].url" alt=""> 
               <div class="swiper__cart-box">
                 <p class="swiper__cart-title text">
                   {{ index.attributes.title }}
