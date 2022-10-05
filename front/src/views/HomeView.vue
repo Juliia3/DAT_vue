@@ -4,7 +4,6 @@ import About from '../components/About/About.vue';
 import Swiper from '../components/Swiper/Swiper.vue';
 import Article from '../components/Article/Article.vue';
 import Modal from '../components/Modal/Modal.vue';
-import Pay from '../components/Pay/Pay.vue';
 
 </script>
 
@@ -20,5 +19,4 @@ import Pay from '../components/Pay/Pay.vue';
       articleText4="В широком ассортименте представлены саженцы плодовых деревьев, роз, ягодных кустов. У нас вы можете купить семена газонной травы, а также сопутствующие товары: удобрения, средства защиты, биопрепараты, садовый инвентарь, субстраты, грунты, агроволокно, горшки, кассеты для рассады." />
     <Modal />
   </div>
-
 </template>

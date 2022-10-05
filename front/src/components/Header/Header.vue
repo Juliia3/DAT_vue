@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import './header.scss'
 
 </script>
@@ -8,15 +8,14 @@ import './header.scss'
         <div class="menu__container container">
             <nav class="menu__nav">
                 <ul class="menu__list">
-                    <li class="menu__item header"><a class="menu__link" target="_blank" href=""><RouterLink to="/about">Про нас</RouterLink> -->
-                            <!-- <img class="menu__vector vector" src="@/assets/img/vector.svg" alt="vector">-->
-                        <!-- </a>
+                    <li class="menu__item header">
+                        <RouterLink to="/about" target="_blank">Про нас</RouterLink>
                     </li>
                     <li class="menu__item header">
-                        <a class="menu__link" href="">Каталог продукції</a>
+                        <RouterLink to="/catalog" target="_blank">Каталог продукції</RouterLink>
                     </li>
                     <li class="menu__item header">
-                        <a class="menu__link" href="">Оплата і доставка</a>
+                        <RouterLink to="/pay" target="_blank">Оплата і доставка</RouterLink>
                     </li>
                     <li class="menu__item header">
                         <a class="menu__link" href="">Партнери</a>
@@ -36,4 +35,4 @@ import './header.scss'
                     <span class="menu__login">Реєстрація</span></a></p>
         </div>
     </header>
-</template> -->
+</template>

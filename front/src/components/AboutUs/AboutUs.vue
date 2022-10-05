@@ -1,15 +1,10 @@
-<!-- <script setup>
+<script setup>
 import './aboutus.scss'
-import Header from '../Header/Header.vue';
-import Search from '../Search/Search.vue';
 import Title from '../Title/Title.vue';
-import Footer from '../Footer/Footer.vue';
 
 </script>
 
 <template>
-    <Header />
-    <Search />
     <section class="about-us">
         <div class="about-us__container container">
             <div class="about-us__title">
@@ -55,6 +50,4 @@ import Footer from '../Footer/Footer.vue';
             </div>
         </div>
     </section>
-    <Footer />
-
-</template> -->
+</template> 
