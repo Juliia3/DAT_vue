@@ -24,7 +24,7 @@ import './swiper.scss'
         class="mySwiper">
           <swiper-slide v-for="(index, pic) in cart">
             <div class="swiper__cart cart">
-              <img :src="'http://localhost:1337' + img[pic].url" alt=""> 
+              <!-- <img class="swiper__cart-img" :src="'http://localhost:1337' + img[pic].url" alt="">     -->
               <div class="swiper__cart-box">
                 <p class="swiper__cart-title text">
                   {{ index.attributes.title }}
@@ -35,7 +35,7 @@ import './swiper.scss'
                 <p class="swiper__cart-price">
                   {{ index.attributes.price }}
                 </p>
-                <img class="swiper__cart-bag bag-icon" src="@/assets/img/bag.svg" alt="">
+                <img class="swiper__cart-bag bag-icon" src="@/assets/img/bag.svg" alt="" @click="plus">
               </div>
             </div> 
           </swiper-slide>
@@ -58,6 +58,7 @@ import './swiper.scss'
         </swiper>
       </div>
     </div>
+    <div class="out">0,00</div>
   </section>
 </template> 
 <script>
@@ -88,7 +89,10 @@ export default {
       return this.parseJSON(resp).then((resp) => {
         throw resp;
       });
-    }
+    },
+    plus() {
+      this.out = this.index.attributes.price
+    },
   },
   async mounted() {
     try {

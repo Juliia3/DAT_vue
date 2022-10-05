@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import './header.scss'
 
 </script>
@@ -8,8 +8,9 @@ import './header.scss'
         <div class="menu__container container">
             <nav class="menu__nav">
                 <ul class="menu__list">
-                    <li class="menu__item header"><a class="menu__link" href="">Про нас 
-                        <img class="menu__vector vector" src="@/assets/img/vector.svg" alt="vector"></a> 
+                    <li class="menu__item header"><a class="menu__link" target="_blank" href=""><RouterLink to="/about">Про нас</RouterLink> -->
+                            <!-- <img class="menu__vector vector" src="@/assets/img/vector.svg" alt="vector">-->
+                        <!-- </a>
                     </li>
                     <li class="menu__item header">
                         <a class="menu__link" href="">Каталог продукції</a>
@@ -30,8 +31,9 @@ import './header.scss'
             </nav>
             <img class="menu__line line" src="@/assets/img/line.svg" alt="line">
             <p class="menu__reg header"><a class="menu__log-link" href="">
-                <img class="menu__login-img" src="@/assets/img/login.svg" alt="login"> <span class="menu__login">Вхід |</span> 
-                <span class="menu__login">Реєстрація</span></a></p>
+                    <img class="menu__login-img" src="@/assets/img/login.svg" alt="login"> <span
+                        class="menu__login">Вхід |</span>
+                    <span class="menu__login">Реєстрація</span></a></p>
         </div>
     </header>
-</template>
+</template> -->

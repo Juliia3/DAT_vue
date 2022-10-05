@@ -22,6 +22,17 @@ button:hover {
     margin: 0 auto;
 }
 
+// .play {
+//     opacity: 0;
+//     right: -150px;
+//     transition: all 3s;
+// }
+
+// .play-on {
+//     right: 0;
+//     opacity: 1;
+// }
+
 .logo {
     max-width: 158px;
     display: block;
@@ -43,6 +54,11 @@ input::placeholder {
 }
 
 .bag-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.icon:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -102,6 +118,27 @@ input::placeholder {
 .circle {
     width: 713px;
     height: 713px;
+    position: absolute;
+}
+
+.circle-right {
+    right: 0;
+    top: 0;
+}
+
+.circle-left {
+    transform: rotate(180deg);
+    left: 0;
+}
+
+.circle-right-green {
+    right: 0;
+    top: 0;
+}
+
+.circle-left-green {
+    transform: rotate(180deg);
+    left: 0;
 }
 
 .h1 {
